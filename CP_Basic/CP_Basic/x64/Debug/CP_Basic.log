@@ -1,5 +1,4 @@
-﻿  Ch02_Variable.cpp
-  Ch03_Calculation.cpp
-  CP_Basic.cpp
+﻿  CP_Basic.cpp
+  Ch08_Array.cpp
   Generating Code...
-C:\Users\ADDINEDU1\Documents\CP_Basic\CP_Basic\CP_Basic\CP_Basic.cpp(34,6): error C2065: 'Condition': undeclared identifier
+  CP_Basic.vcxproj -> C:\Users\ADDINEDU1\Documents\CP_Basic\CP_Basic\x64\Debug\CP_Basic.exe

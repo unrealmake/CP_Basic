@@ -10,7 +10,6 @@ void Arithmetic()
 	cout << Arithmetic1 * Arithmetic2 << endl;
 	cout << Arithmetic1 / Arithmetic2 << endl;
 	cout << Arithmetic1 % Arithmetic2 << endl;
-
 }
 
 void Increment()
