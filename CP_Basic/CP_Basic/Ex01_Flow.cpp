@@ -1,0 +1,138 @@
+#include "io.h"
+
+// 1) if~else를 이용하여 입력받은 정수의 짝수/홀수 여부를 출력
+
+void EvenOdd()
+{
+	int Number = 0;
+	cin >> Number;
+
+	if (Number % 2 == 0) {
+		cout << "짝수" << endl;
+	}
+	else {
+		cout << "홀수" << endl;
+	}
+}
+
+//162 페이지 문제 2번 숙제
+
+//	5) for, if, continue 키워드를 사용하여 1~100까지 짝수만 출력
+// continue : continue 키워드 이후의 코드를 실행하지 않고 통과
+
+void PrintEven()
+{
+	for (int i = 1; i <= 100; i++) {
+		//1.
+		/*if (i % 2 == 0) {
+			cout << i << endl;
+		}
+		else {
+			continue;
+		}
+		*/
+		/*
+		if (i % 2 != 0) {
+			continue;
+		}
+		else {
+			cout << i << endl;
+		}
+		*/
+
+		//3.
+		if (i % 2 != 0) {
+			continue;
+		}
+		cout << i << endl;
+	}
+}
+
+// 6-2) 표준 등급을 입력받아 100명당 평균 몇등인지 출력
+void Median(float StartNumber, float EndNumber)
+{
+	cout << (StartNumber + EndNumber) / 2 << endl;
+}
+
+void StandardGrade()
+{
+	int Grade = 0;
+	cin >> Grade;
+
+	switch (Grade) {
+		case  1:
+			Median(0, 4);
+			break;
+		case  2:
+			Median(4, 11);
+			break;
+		case  3:
+			Median(11, 23);
+			break;
+		case  4:
+			Median(23, 40);
+			break;
+		case  5:
+			Median(40, 60);
+			break;
+		case  6:
+			Median(60, 77);
+			break;
+		case  7:
+			Median(77, 89);
+			break;
+		case  8:
+			Median(89, 96);
+			break;
+		case  9:
+			Median(96, 100);
+			break;
+	}
+}
+
+//네 학생의 국어 영어 수학 성적이다. 학생별 총점을 구하고 과목별 평균을 출력하시오.
+
+int a[] = { 100, 100, 50 };
+int b[] = { 90, 70, 80 };
+int c[] = { 70, 80, 90 };
+int d[] = { 80, 100, 90 };
+
+int ArrSize1 = sizeof(a) / sizeof(a[0]);
+int ArrSize2 = sizeof(b) / sizeof(b[0]);
+int ArrSize3 = sizeof(c) / sizeof(c[0]);
+int ArrSize4 = sizeof(d) / sizeof(d[0]);
+
+void Score()
+{
+	int Score = 0;
+
+	for (int i = 0; i < ArrSize1; i++) {
+		Score += a[i];
+	}
+	cout << "1번 점수 총합 : " << Score << endl;
+	cout << "1번 점수 평균 : " << static_cast<double>(Score) / ArrSize1 << endl;
+
+	Score = 0;
+
+	for (int i = 0; i < ArrSize2; i++) {
+		Score += b[i];
+	}
+	cout << "2번 점수 총합 : " << Score << endl;
+	cout << "2번 점수 평균 : " << static_cast<double>(Score) / ArrSize2 << endl;
+
+	Score = 0;
+
+	for (int i = 0; i < ArrSize3; i++) {
+		Score += c[i];
+	}
+	cout << "3번 점수 총합 : " << Score << endl;
+	cout << "3번 점수 평균 : " << static_cast<double>(Score) / ArrSize2 << endl;
+
+	Score = 0;
+
+	for (int i = 0; i < ArrSize4; i++) {
+		Score += d[i];
+	}
+	cout << "4번 점수 총합 : " << Score << endl;
+	cout << "4번 점수 평균 : " << static_cast<double>(Score) / ArrSize2 << endl;
+}

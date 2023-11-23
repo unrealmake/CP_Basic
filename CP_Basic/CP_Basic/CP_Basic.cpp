@@ -18,7 +18,23 @@ int main()
 	//PrintArray();
 	//SumArray();
 	//ProcessScore();
-	BubbleSort();
+	//BubbleSort();
+	//MultiArray();
+	//DefineStructure();
+	//StructureArray();
+	//Enumeration();
+	//EvenOdd();
+	//PrintEven();
+	//StandardGrade();
+	//ArraySum();
+	//Sort();
+	//Reverse();
+	//cout << Absolute(-5);
+	//Score();
+
+
+
+
 }
 
 //함수 정의 : main 함수 뒤에 정의
