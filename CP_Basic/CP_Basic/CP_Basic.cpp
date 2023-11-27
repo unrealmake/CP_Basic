@@ -30,8 +30,14 @@ int main()
 	//Sort();
 	//Reverse();
 	//cout << Absolute(-5);
-	//Score();
-
+	//PointerVar();
+	//PointerCalc();
+	//PointerArray();
+	//DynamicAlloc();
+	//DynamicArray();
+	//InputArraySize();
+	//InputBall();
+	Dice();
 
 
 
