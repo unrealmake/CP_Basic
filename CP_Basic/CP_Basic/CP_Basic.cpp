@@ -37,8 +37,12 @@ int main()
 	//DynamicArray();
 	//InputArraySize();
 	//InputBall();
-	Dice();
-
+	//Dice();
+	//DefineClass();
+	//PrintPlayer();
+	//PrintAirplane();
+	//DynamicAirplane();
+	Score();
 
 
 }
