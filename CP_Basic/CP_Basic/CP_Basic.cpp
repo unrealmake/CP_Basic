@@ -42,7 +42,11 @@ int main()
 	//PrintPlayer();
 	//PrintAirplane();
 	//DynamicAirplane();
-	Score();
+	//Score();
+	//ArrayClass();
+	//StringClass();
+	//VectorClass();
+	//OverloadingFunction();
 
 
 }

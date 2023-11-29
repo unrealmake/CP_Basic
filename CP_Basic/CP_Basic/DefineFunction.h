@@ -55,3 +55,7 @@ void PrintPlayer();
 void PrintAirplane();
 void DynamicAirplane();
 void Score();
+void ArrayClass();
+void StringClass();
+void VectorClass();
+void OverloadingFunction();

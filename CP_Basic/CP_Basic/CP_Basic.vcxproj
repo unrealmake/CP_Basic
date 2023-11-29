@@ -143,6 +143,11 @@
     <ClCompile Include="Ch13-2_AirplaneMethod.cpp" />
     <ClCompile Include="Ch13-3_This.cpp" />
     <ClCompile Include="Ch13_Class.cpp" />
+    <ClCompile Include="Ch14_ArrayClass.cpp" />
+    <ClCompile Include="Ch15_StringClass.cpp" />
+    <ClCompile Include="Ch16_VectorClass.cpp" />
+    <ClCompile Include="Ch17-1OverloadingMethod.cpp" />
+    <ClCompile Include="Ch17_Overloading.cpp" />
     <ClCompile Include="CP_Basic.cpp" />
     <ClCompile Include="Ex01_Flow.cpp" />
     <ClCompile Include="Ex02_Array.cpp" />
@@ -156,6 +161,7 @@
     <ClInclude Include="Ch13-1_ClassHeader.h" />
     <ClInclude Include="Ch13-2_Airplane.h" />
     <ClInclude Include="Ch13-3_This.h" />
+    <ClInclude Include="Ch17-1_OverloadingClass.h" />
     <ClInclude Include="DefineFunction.h" />
     <ClInclude Include="Ex06_ScoreClass.h" />
     <ClInclude Include="io.h" />
