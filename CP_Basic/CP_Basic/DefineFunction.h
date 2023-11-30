@@ -59,3 +59,8 @@ void ArrayClass();
 void StringClass();
 void VectorClass();
 void OverloadingFunction();
+void Inheritance();
+void Inherit();
+void ClassKeyword();
+void Type();
+void Virtual();

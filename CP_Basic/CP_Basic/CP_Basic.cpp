@@ -47,6 +47,11 @@ int main()
 	//StringClass();
 	//VectorClass();
 	//OverloadingFunction();
+	//Inheritance();
+	//Inherit();
+	//ClassKeyword();
+	//Type();
+	Virtual();
 
 
 }
