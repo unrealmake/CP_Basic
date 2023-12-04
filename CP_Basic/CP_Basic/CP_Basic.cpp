@@ -51,8 +51,8 @@ int main()
 	//Inherit();
 	//ClassKeyword();
 	//Type();
-	Virtual();
-
+	//Virtual();
+	PrintStudent();
 
 }
 

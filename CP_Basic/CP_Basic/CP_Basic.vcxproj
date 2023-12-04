@@ -165,6 +165,8 @@
     <ClCompile Include="Ex05_Dice.cpp" />
     <ClCompile Include="Ex06_Score.cpp" />
     <ClCompile Include="Ex06_ScoreMethod.cpp" />
+    <ClCompile Include="Ex09_person.cpp" />
+    <ClCompile Include="Exo09_personMethod.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Ch13-1_ClassHeader.h" />
@@ -177,6 +179,7 @@
     <ClInclude Include="Ch21_Virtual.h" />
     <ClInclude Include="DefineFunction.h" />
     <ClInclude Include="Ex06_ScoreClass.h" />
+    <ClInclude Include="Ex09_person.h" />
     <ClInclude Include="io.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
